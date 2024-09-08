@@ -1,0 +1,38 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 60%;
+    height: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    background-color: #363535;
+    
+}
+
+button:first-child{
+    width: 10%;
+}
+
+button{
+    list-style: none;
+    border: 1px solid #363535;
+    width: 20%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    background-color: var(--color1);
+    color: rgb(134, 132, 132);
+    transition: all 0.2s ease-in-out;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #6d6b6b;
+    color: #363535;
+}
+
+
+

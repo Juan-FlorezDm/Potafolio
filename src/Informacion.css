@@ -1,0 +1,23 @@
+.Content{
+    margin-top: 20px;
+    border-right: 2px solid rgb(128, 126, 126);
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Personal{
+    height: 350px;
+    width: 350px;
+    margin: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

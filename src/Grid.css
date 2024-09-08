@@ -1,0 +1,25 @@
+.Diplomas{
+    margin: 25px; 
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    grid-area: 1 / 1 / 2 / 5;
+}
+
+.Diploma-1{
+    grid-area: 1 / 1 / 4 / 4;
+    border: 1px solid white;
+}
+
+.Diploma-2{
+    grid-area: 1 / 4 / 4 / 9;
+    border: 1px solid white;
+}
+
+.Carrucel{
+    grid-area: 4 / 1 / 7 / 9;
+    border: 1px solid white;
+}
